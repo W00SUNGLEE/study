@@ -1,15 +1,12 @@
-/* DIV SPAN*/
-.green {
-  color: green;
-}
-.red {
-  color: red;
-  background: black;
+/* INHERITANCE */
+body {
+  font-family: monospace;
+  line-height: 1.5em;
 }
 div {
-  color: red;
-  background: gray;
+  color: blue;
+  border: 3px solid black;
 }
-span {
-  text-transform: uppercase;
+h2 {
+  color: green;
 }
