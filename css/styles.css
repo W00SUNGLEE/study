@@ -1,13 +1,19 @@
-h1 {
-  color: blue;
-  font-size: 3rem;
-}
-h2 {
+/* ELEMENT SELECTORS */
+body {
   color: red;
 }
-/* css rule */
-/* selectors */
-/* declaration block */
-/* declaration */
-/* property */
-/* value */
+h1,
+h2 {
+  color: blue;
+}
+
+/* ID */
+#heading {
+  color: green;
+  background: black;
+}
+
+#subheading {
+  color: red;
+  background: gray;
+}
