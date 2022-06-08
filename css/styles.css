@@ -1,12 +1,8 @@
-/* INHERITANCE */
-body {
-  font-family: monospace;
-  line-height: 1.5em;
-}
-div {
+/* Last Rule And Specifiicity * Universal Selecor */
+p {
   color: blue;
-  border: 3px solid black;
 }
-h2 {
-  color: green;
+
+p {
+  color: red;
 }
