@@ -1,19 +1,15 @@
-/* ELEMENT SELECTORS */
-body {
-  color: red;
-}
-h1,
-h2 {
-  color: blue;
-}
+/* CLASS SELETORS */
 
-/* ID */
-#heading {
+.green {
   color: green;
-  background: black;
 }
-
-#subheading {
+.red {
   color: red;
   background: gray;
+}
+#title {
+  font: size 40px;
+}
+.lowercase {
+  text-transform: lowercase;
 }
