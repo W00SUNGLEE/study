@@ -1,18 +1,10 @@
 /* 
-calc() // 연산자 사이에 스페이스(공백)있어야함
-perform math operations + - * /     
-mix and match values
+font-stack font-family
  */
-* {
-  margin: 0;
+body {
+  font-family: "Courier New", Courier, monospace;
 }
-.navber {
-  background: blue;
-  height: 100px;
-  color: white;
-  font-size: 3rem;
-}
-.banner {
-  background: red;
-  min-height: calc(100vh - 100px);
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: ;
 }
