@@ -1,10 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yesteryear&display=swap");
+</style>
 /* 
-font-stack font-family
+GOOGLE FONTS
  */
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-family: ;
+.main {
+  font-family: "Yesteryear", cursive;
+}
+.subheading {
+  font-style: normal;
+}
+.one {
+  font-weight: bold;
+  font-style: italic;
+}
+.two {
+  font-weight: lighter;
+  font-style: oblique;
 }
