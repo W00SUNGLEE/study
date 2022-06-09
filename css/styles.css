@@ -1,13 +1,17 @@
-/* font-size, width, height, pixels */
+/* 
+em - RELATIVE depends on parent
+lem = 16px default browser style;
+lem = base value
+rem - RELATIVE depends on root
+1rem = 16px default browser style;
+ */
 
-.outer {
-  width: 400px;
-  height: 200px;
-  background: blue;
+div {
+  font-size: 20px;
 }
-
-.inner {
-  width: 50%;
-  height: 50%;
-  background: red;
+.relative {
+  font-size: 2rem;
+}
+.absolute {
+  font-size: 32px;
 }
