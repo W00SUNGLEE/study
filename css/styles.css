@@ -1,8 +1,18 @@
 /* 
-default browser styles and google devTools
+calc() // 연산자 사이에 스페이스(공백)있어야함
+perform math operations + - * /     
+mix and match values
  */
-
-h2 {
-  color: red;
-  font-size: 60px;
+* {
+  margin: 0;
+}
+.navber {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
 }
