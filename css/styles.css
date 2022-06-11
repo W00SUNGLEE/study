@@ -1,21 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yesteryear&display=swap");
 /* 
-text-align
-text-indent
+line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration
  */
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
 body {
-  font-family: "Roboto", sans-serif;
-  /* text-align: right; */
+  text-transform: uppercase;
 }
-.main {
-  font-family: "Yesteryear", cursive;
-  text-align: center;
-}
-.subheading {
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
 }
 .one {
-  text-indent: 10rem;
+  line-height: 0.5em;
 }
 .two {
-  text-align: left;
+  letter-spacing: 5px;
+  text-decoration: overline;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
 }
