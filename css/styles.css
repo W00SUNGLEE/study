@@ -1,14 +1,18 @@
 /* 
-Block : Always starts a new line and takes full width
-Inline : Does not start and only take up as much as content space
+Horizontal Centering
  */
+body {
+  text-align: center;
+}
 .block {
   background: blue;
   color: white;
-  display: inline;
+  width: 150px;
+  margin: 20px auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 .inline {
   background: red;
   color: white;
-  display: block;
 }
