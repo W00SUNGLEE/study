@@ -1,18 +1,29 @@
 /* 
-Horizontal Centering
+Block : Top Bottom Margin Respected
+Inline : Top Bottom Margin Not Respected
+Mobile Navbar
+list-style-type : property
+descendant selectors
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.block {
-  background: blue;
-  color: white;
-  width: 150px;
-  margin: 20px auto;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+ul li {
+  list-style-type: none;
 }
-.inline {
-  background: red;
-  color: white;
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #222;
+  color: #f15025;
+  padding: 10px 10px;
+  /* margin: 10px; */
+  display: block;
 }
