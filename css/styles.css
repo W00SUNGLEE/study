@@ -23,3 +23,26 @@ div {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./big.jpg") center/cover no-repeat fixed;
 }
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f25330+0,207cca+52,77dd7c+100 */
+  background: #f25330; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #f25330 0%,
+    #207cca 52%,
+    #77dd7c 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #f25330 0%,
+    #207cca 52%,
+    #77dd7c 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f25330 0%,
+    #207cca 52%,
+    #77dd7c 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25330', endColorstr='#77dd7c',GradientType=1 ); /* IE6-9 */
+}
