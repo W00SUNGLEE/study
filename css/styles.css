@@ -1,3 +1,12 @@
+/* position fixed */
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 div {
   border: 3px solid red;
   background: yellow;
@@ -7,10 +16,6 @@ div {
 .one {
   background: blue;
   position: relative;
-  /* top: 50px; */
-  /* left: 20rem; */
-  /* right: 50%;
-  bottom: 50px; */
 }
 .two {
   background: green;
