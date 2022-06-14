@@ -1,17 +1,23 @@
-.banner {
-  border: 5px solid red;
-  padding: 10px;
-  overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  float: left;
+  height: 400px;
+  width: 33.33%;
 }
 
 .one {
-  float: right;
-  margin-left: 50px;
+  background: red;
 }
-/* .two {
-  float: left;
-  height: 30px;
-} */
-/* p {
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+}
+h1 {
   clear: both;
-} */
+}
