@@ -1,34 +1,30 @@
 /* 
-z-index --- z-axis
-position:static --- does not work
+pseudo elements ::before ::after CONTENT not element
+content: '' --- required
+img --- does not work
 */
 
+p::before {
+  content: "hello ";
+  display: block;
+  background: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+p::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+div {
+  width: 50vh;
+  margin: 100px auto;
+  border: 2px solid red;
+}
 img {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-}
-.banner {
-  margin: 20px;
-  width: 70vw;
-  height: 70vh;
-  border: 5px solid red;
-  position: relative;
-}
-.one {
-  top: 0;
-  left: 0;
-  position: static;
-  z-index: 100;
-  /* z-index: 0; */
-}
-.two {
-  top: 10%;
-  left: 10%;
-  z-index: 1;
-}
-.three {
-  top: 20%;
-  left: 20%;
-  z-index: 2;
+  width: 100%;
+  display: block;
 }
