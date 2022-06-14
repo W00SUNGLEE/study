@@ -22,9 +22,44 @@ p::after {
 div {
   width: 50vh;
   margin: 100px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  position: relative;
 }
 img {
   width: 100%;
   display: block;
+}
+/* img::before {
+  content: "hello";
+} */
+div::before {
+  content: "";
+  border: 2px solid gray;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+div::after {
+  content: "";
+  background: gray;
+  border: 2px solid gray;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
 }
