@@ -1,24 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 div {
-  width: 150px;
-  height: 150px;
-  margin: 5px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
 }
-.one {
-  background: linear-gradient(red, green);
+.banner {
+  background: url(./big.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
-.two {
-  background: linear-gradient(to top, red, green, blue, yellow);
-}
-
-.three {
-  background: linear-gradient(315deg, red, green);
-}
-.four {
-  background: linear-gradient(to top right, red, green);
-}
-.five {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
-}
-.six {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./big.jpg") center/cover no-repeat fixed;
 }
