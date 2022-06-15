@@ -1,20 +1,23 @@
 /* 
-:root root element of the document
-html element
-general styles
-css variables
+transform : translate(), scale(), rotate(), skew()
 */
-:root {
-  /* background: red; */
-  font-size: 150%;
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
 }
-/* 1rem = 16px */
-h1 {
-  font-size: 3rem;
+
+.one {
+  background: red;
+  transform: translateX(50%);
 }
-.absolute {
-  font-size: 24px;
+.two {
+  background: green;
+  transform: translateY(30px);
 }
-.responsive {
-  font-size: 1.5rem;
+.three {
+  background: blue;
+  /* transform: translateX(75px); */
+  transform: translate(200px, 300px);
 }
