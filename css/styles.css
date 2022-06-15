@@ -1,10 +1,14 @@
 /* 
-::first-line ::first-letter
+:hover
 */
 
-p::first-line {
-  font-weight: bold;
+p:hover {
+  color: red;
 }
-p::first-letter {
-  font-size: 3rem;
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
 }
