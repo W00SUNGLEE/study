@@ -1,40 +1,46 @@
 /* 
-how the transition takes place
-transition-timing-function:
-transition:all 3s here 5s;
-ease = default
-ease = slow start, fast, slow end
-linear = same speed start to end
-ease-in = slow start
-ease-out = slow end
-ease-in-out = slow start, fast, slow end
-
+Transition 0 = 100%
+ANIMATION 0 1% 2% ..... 100%
 */
 
 div {
-  width: 100px;
+  width: 200px;
   height: 100px;
-  background: blue;
+  margin: 10px;
   color: white;
-  margin: 15px;
-  transition: all 1s;
 }
-div:hover {
+
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+
+.transition:hover {
+  background: yellow;
   transform: translateX(100px);
 }
-.ease {
-  /* transition: all 2s ease; */
-  transition-timing-function: ease;
+.animation {
+  background: blue;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2; */
+  animation: move 10s infinite;
 }
-.linear {
-  transition-timing-function: linear;
-}
-.ease-in {
-  transition-timing-function: ease-in;
-}
-.ease-out {
-  transition-timing-function: ease-out;
-}
-.ease-in-out {
-  transition-timing-function: ease-in-out;
+
+@keyframes move {
+  0% {
+    transform: translate(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+  75% {
+    transform: translateX(-100px);
+    background: yellow;
+  }
+  100% {
+    transform: translateX(20px);
+    background: green;
+  }
 }
