@@ -1,14 +1,15 @@
 /* 
-:hover
+:link :visited :hover : active
 */
-
-p:hover {
+a:link {
+  color: aqua;
+}
+a:visited {
   color: red;
 }
-.header:hover {
-  background: blue;
-  color: white;
-}
 a:hover {
-  text-decoration: none;
+  color: blue;
+}
+a:active {
+  color: green;
 }
