@@ -1,13 +1,21 @@
 /* 
-ICONS
-Font-Awesome Icons
-Free, Easy to get up running, simple syntax
+text-shadow
+box-shadow
 */
 
-.fa-home {
-  color: green;
+h1 {
+  text-shadow: 1px 1px 10px red;
 }
-.social-icon {
-  font-size: 4rem;
-  color: blue;
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 3px 5px 5px green;
+  transition: all 0.5s linear;
+}
+.box:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
