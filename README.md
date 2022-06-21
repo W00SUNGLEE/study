@@ -1,6 +1,6 @@
 # study
-## html, css
+## 1.html, css
 ### 2022/06/03 ~ 2022/06/15
 
-## javascript
+## 2.javascript
 ### 2022/06/21 ~
