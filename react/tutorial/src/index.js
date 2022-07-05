@@ -1,17 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Nested Componentes, React Tools
+// CSS
+import "./index.css";
 
 const BookList = () => {
   return (
-    <section>
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+    <section className="booklist">
       <Book />
     </section>
   );
@@ -19,7 +14,7 @@ const BookList = () => {
 
 const Book = () => {
   return (
-    <article>
+    <article className="book">
       <Image />
       <Title />
       <Author />
@@ -40,7 +35,17 @@ const Title = () => {
   return <h1>I Love You to the Moon and Back</h1>;
 };
 const Author = () => {
-  return <h4>Amelia Hepworth</h4>;
+  return (
+    <h4
+      style={{
+        color: "#617d98",
+        fontSize: "0.75rem",
+        marginTop: "0.25rem"
+      }}
+    >
+      Amelia Hepworth
+    </h4>
+  );
 };
 
 ReactDOM.render(<BookList />, document.getElementById("root"));
