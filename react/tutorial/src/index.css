@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -34,6 +34,7 @@ body {
   margin-top: 0.5rem;
 }
 .book h4 {
-  color: red;
-  letter-spacing: 5px;
+  color: #617d98;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
 }
