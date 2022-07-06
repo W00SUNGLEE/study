@@ -25,7 +25,12 @@ body {
     align-items: start;
   }
 }
-
+article {
+  padding: 30px;
+}
+img {
+  height: 200px;
+}
 .book {
   background: #fff;
   border-radius: 1rem;
