@@ -9,7 +9,7 @@ const MultipleReturns = () => {
     // setIsLoading(true);
     fetch(url)
       .then((resp) => {
-        console.log(resp);
+        // console.log(resp);
         if (resp.status >= 200 && resp.status <= 299) {
           return resp.json();
         } else {
