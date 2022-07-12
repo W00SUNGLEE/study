@@ -7,18 +7,18 @@ const Product = ({ image, name, price }) => {
   return (
     <article className="product">
       <h4>single product</h4>
-      <img src={image.url || defaultImage} alt={name} />
+      <img src={url || defaultImage} alt={name} />
       <h4>{name}</h4>
       <p>${price || 3.99}</p>
     </article>
   );
 };
 
-/* Product.propTypes = {
+Product.propTypes = {
   image: PropTypes.object.isRequired,
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired
-}; */
+};
 
 // Product.defaultProps = {
 //   name: "defalut name",
